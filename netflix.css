@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+     box-sizing: border-box;
+}
+body{
+   
+    margin: 0%;
+    padding: 0%;
+}
+#header{
+    width: 88%;
+    margin: auto;
+    margin-top: 8px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+}
+#logo{
+    width: 50%;
+   min-height: 40px; 
+
+}
+#sign{
+    width: 50%;
+    margin-right: 76px;
+    min-height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+#lang{
+    width: 124px;
+    height: 32px;
+    margin-top: 6px;
+    margin-right: 36px;
+    padding-left: 20px;
+    border-radius: 4px;
+    border: solid 1.5px gray;
+    background-color: #ffffff12;
+}
+
+#lang img{
+    padding-top: 6px;
+    width: 16px;
+    height: 16px;
+}
+#multi-lang{
+    width: 76px;
+    height: 34px;
+    margin-left: 4px;
+    background-color: #ffffff00;
+    border-color: #ffffff00;
+}
+#sign-in
+{
+    width: 72px;
+    background-color: rgb(220, 11, 11);
+    height: 32px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 16px;
+    margin-top: 6px;
+    padding-top: 6px;
+}
+#sign-in a{
+   
+    text-decoration: none;
+    color: white;
+  
+}
+#sub-body{
+    width: 72%;
+    margin: auto;
+    min-height: 552px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+}
+#body-head h1{
+    font-size: 48px;
+    font-weight: 900;
+
+}
+#body-head p{
+    text-align: center;
+    margin-top: 16px;
+    font-size: 26px;
+    font-weight: 400;
+}
+#ready{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 28px;
+}
+#email{
+    width: 76%;
+    margin-top: 28px;
+    margin-left: 72px;
+    display: flex;
+    flex-direction: row;
+  
+  
+}
+#email-id input{
+    width: 448px;
+    height: 56px;
+    font-size: 16px;
+    color:white ;
+    background-color: #4591b157;
+    font-weight: 400;
+    padding: 16px;
+    margin-right: 16px;
+    border: solid .5px rgb(217, 215, 215);
+    border-radius: 8px;
+    
+}
+#email-id input::placeholder{
+    color: aliceblue;
+}
+#start button{
+    width: 252px;
+    height: 56px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    border: 0px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
+#start img{
+    margin-left: 8px;
+  color: white;
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    background-color: black;
+}
+.header{
+    width: 100%;
+   height: 44rem;
+   background-image: url(hero\ image.jpg);
+   border-bottom: 8px solid rgb(40, 39, 39);
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+.nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.nav-left img{
+    width: 9.25rem;
+    height: 2.5rem;
+}
+.nav-right{
+    display: flex;
+}
+.language{
+    display:flex ;
+   justify-content: center;
+   align-items: center;
+    background-color: rgba(0, 0,0, 0.4);
+    padding: 0rem .5rem;
+    border: 0.5px solid rgba(215, 212, 212, 0.627);
+    border-radius: 6px;
+    height: 2rem;
+    margin-right: .5rem;
+}
+.lang{
+    background-color: rgba(0, 0,0, 0.4);
+    color: white;
+    border: none;
+}
+.sign-in  button{  
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+    background-color: red;
+    height: 2rem;
+    padding: 0rem .5rem;
+    margin-right: .5rem;
+ 
+}
+.head-content{
+    width: 72%;
+    margin: auto;
+    color: white;
+    margin-top: 10rem;
+    text-align: center;
+}
+.head-content h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+.head-content h2{
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.head-content p{
+    font-size: 1.25rem;
+    font-weight: 400;
+   margin-bottom: 0.8rem;
+}
+.email{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+}
+.email input{
+    font-size: 1.1rem;
+    padding: 1rem .8rem;
+    display: flex;
+    background: rgba(22, 22, 22, 0.7);
+    border-radius: 0.25rem;
+    border:0.5px solid rgba(128, 128, 128, 0.7);
+    flex-grow: 1;
+}
+
+.email button{
+    display: flex;
+    align-items: center;
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: 4px;
+    border: none;
+}
+
+/* main-body */
+
+.main-body{
+    width: 100%;
+}
+ .sections{
+    width: 100%;
+    border-bottom: 8px solid rgb(40, 39, 39);
+}
+.section{
+    width: 80%;
+    margin: auto;
+    padding:2rem 0rem;
+    display: flex;
+    align-items: center;  
+   position: relative;
+}
+.text-section{
+    color: white;   
+}
+.text-section h1{
+    font-size: 2.8rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+}
+.text-section p{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.image-section{
+   position: relative;
+
+}
+.image-section video{
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    z-index:-1;
+}
+
+/* section-questions */
+
+.questions{
+    padding: 4rem 10rem;
+    color: white;
+    border-bottom: 8px solid rgb(40, 39, 39);
+}
+.questions h1{
+    font-size: 3rem;
+     font-weight: 900;
+     text-align: center;
+     margin-bottom: 1.6rem;
+}
+.questions h4{
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 1.8rem;
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem ;
+    background-color: rgb(65, 65, 65);
+    border: 1px solid rgb(52, 52, 52);
+    margin-bottom: 1rem;
+}
+.question p{
+    font-size: 1.4rem;
+}
+.footer{
+    padding: 4rem 10rem;
+    color: white;
+}
+.footer a{
+    color: rgba(159, 158, 158, 0.853);
+    text-decoration: none;
+   
+}
+li{
+    list-style: none;
+    margin: .4rem;
+}
+.links
+{
+    display: flex;
+   justify-content: space-between;
+}
